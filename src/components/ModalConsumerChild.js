@@ -16,7 +16,7 @@ const ModalConsumerChild = ({ id }) => {
 
   return (
     <div>
-      <h3>{id} (Context API)</h3>
+      <h3>{id}</h3>
       <button
         type='button'
         className='Button'
