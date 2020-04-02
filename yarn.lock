@@ -1684,6 +1684,11 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
+a11y-dialog@^5.2.0:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/a11y-dialog/-/a11y-dialog-5.3.1.tgz#e0e8377bc4064ee30c77ff69402384ea64e07dca"
+  integrity sha512-VyxN0jLfDk1nM48tiHIYLatVLm4XwjaJQCnhCem/O1WCR5m86+iwHNkKPfZ3DfbCcnw1p6Iwa8R6V9m1ia+iXA==
+
 abab@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
@@ -8393,6 +8398,13 @@ raw-body@2.4.0:
     http-errors "1.7.2"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+react-a11y-dialog@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/react-a11y-dialog/-/react-a11y-dialog-4.1.1.tgz#abbc27efc0f63f51966d404926f8f926e8155dc5"
+  integrity sha512-UM/9jctw8lMnDmFTc2+l8LmCm8SeaBUxQeQS4z2yDcCY2Mhu7S9CpmAL8fIRJ/3jM7mIx8wsHRwXD9qdJ4X3FQ==
+  dependencies:
+    a11y-dialog "^5.2.0"
 
 react-app-polyfill@^1.0.6:
   version "1.0.6"
